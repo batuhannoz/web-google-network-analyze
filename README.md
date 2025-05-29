@@ -22,13 +22,20 @@ The dataset used in this project is the Web Graph from Google, which was release
 | Diameter (longest shortest path) | 21 |
 | 90-percentile effective diameter | 8.1 |
 
+### Network Visualization
+
+Below is a visualization of the Google web graph network (only 12.000 nodes):
+
+![Google Web Graph Visualization](img.png)
+
+
 ## Getting Started
 
 ### Prerequisites
 
 - Python 3.x
 - Jupyter Notebook
-- Required Python packages: networkx, matplotlib, numpy, pandas, seaborn, powerlaw, etc.
+- Required Python packages: networkx, matplotlib, numpy, collections, community-louvain, seaborn, pyvis, requests, etc.
 
 ### Setup Instructions
 
@@ -50,7 +57,7 @@ The dataset used in this project is the Web Graph from Google, which was release
    jupyter notebook
    ```
 
-4. Open the `web-google-analyze.ipynb` notebook file in your browser.
+4. Open the `google_graph_analysis.ipynb` notebook file in your browser.
 
 ## Features
 
@@ -74,4 +81,4 @@ Two files are generated:
 
 It's recommended to use the sample version for visualization as the full version is extremely large and requires substantial computational resources to visualize effectively.
 
-- Düzce üniversitesi - Bilgisayar Mühendisliği - BM479 Kompleks Ağ Analizi - Dr. Öğr. Üyesi Sultan Zavrak - Bahar, 2024/2025
+- Düzce University - Computer Engineering Department - BM479 Complex Network Analysis - Assist. Prof. Dr. Sultan Zavrak - Spring, 2024/2025
